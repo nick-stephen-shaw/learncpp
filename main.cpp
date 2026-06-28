@@ -2,8 +2,8 @@
 
 int main() {
     int x{10};
-    std::cout << "Hello, World!" << std::endl;
-    std::cout << "And beyond" << std::endl;
-    std::cout << x << std::endl;
+    std::cout << "Enter a number: ";
+    std::cin >> x;
+    std::cout << x << " is the number!\n";
     return 0;
 }
