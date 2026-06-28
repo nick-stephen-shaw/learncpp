@@ -8,5 +8,6 @@ int main()
     int z{};
     std::cin >> x >> y >> z;
     std:: cout << "You entered " << x << ", " << y << ", and " << z << '\n';
+    return 0;
 }
 
