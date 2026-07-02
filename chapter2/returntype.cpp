@@ -1,13 +1,17 @@
 #include <iostream>
 
-int returnFive()
+int getInput()
 {
-    return 5;
+    int input{};
+    std::cout << "Enter your Number: ";
+    std::cin >> input;
+    return input;
 }
 
 int main()
 {
-    int x{returnFive()};
-    std::cout << x << '\n';
-    std::cout << x + 5 << '\n';
+    int num{getInput()};
+    std::cout << "Your number is: " << num << '\n';
+
+    return 0;
 }
