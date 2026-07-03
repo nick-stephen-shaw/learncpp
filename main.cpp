@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    int x{10};
+    int x{};
     std::cout << "Enter a number: ";
     std::cin >> x;
     std::cout << x << " is the number!\n";

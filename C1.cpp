@@ -8,11 +8,10 @@
 int main()
 {
     std::cout << "Enter an Integer: ";
-
     int x{};
     std::cin >> x;
-    std::cout << "Enter another Integer: ";
 
+    std::cout << "Enter another Integer: ";
     int y{};
     std::cin >> y;
 
