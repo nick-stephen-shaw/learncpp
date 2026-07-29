@@ -1,9 +1,16 @@
 #include <iostream>
 
-int main() {
+int add()
+{
+    std::cout << "Enter an Integer: ";
     int x{};
-    std::cout << "Enter a number: ";
     std::cin >> x;
-    std::cout << x << " is the number!\n";
+    return x;
+}
+
+int main()
+{
+    std::cout << add() << '\n';
+
     return 0;
 }
