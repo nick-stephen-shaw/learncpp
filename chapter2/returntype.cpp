@@ -10,6 +10,7 @@ int getInput()
 
 int main()
 {
+
     int num{getInput()};
     std::cout << "Your number is: " << num << '\n';
 
