@@ -12,6 +12,7 @@ Use a function to calculate the height of the ball after x seconds.
 The function can calculate how far the ball has fallen after x seconds using the following formula: 
 distance fallen = gravity_constant * x_seconds2 / 2
 */
+// Note that loops are not yet learned. Once loops are in the toolkit, there is certainly an easily way for main()
 
 //Function declerations
 void result(double height, double time);
