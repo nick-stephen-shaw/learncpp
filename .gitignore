@@ -1,6 +1,0 @@
-*          # exclude everything
-!*/        # ...except directories, so git keeps descending
-!*.cpp     # re-include sources at any depth
-!*.h
-!*.md
-!.gitignore   # otherwise `*` ignores this file too
