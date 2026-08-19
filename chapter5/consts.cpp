@@ -9,4 +9,7 @@ int main(){
     std::string hello{"Hello, World!"};
 
     std::cout << hello << '\n';
+
+    long x{1'234'567'890'123'456'789};
+    std::cout << x << '\n';
 }
